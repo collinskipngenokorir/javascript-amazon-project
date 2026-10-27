@@ -1,3 +1,5 @@
+import { cart} from "../data/cart.js";
+
 //Data structure: saving  the data
 
 
@@ -103,5 +105,3 @@ document.querySelectorAll('.js-add-to-cart').forEach((button) => {
      console.log(cart)
  });
 });
-
-12.28
