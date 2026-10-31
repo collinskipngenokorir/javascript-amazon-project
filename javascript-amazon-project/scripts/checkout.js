@@ -104,6 +104,6 @@
       removeFromCart(productId);
     });
  });
- 13.42
  
+ 13.42
  
