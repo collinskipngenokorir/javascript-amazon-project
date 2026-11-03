@@ -95,15 +95,16 @@
   `;
  });
  document.querySelector('.js-order-summary').innerHTML = cartSummaryHTML;
- console.log(cartSummarryHTML);
+ console.log(cartSummaryHTML);
 
 
  document.querySelectorAll('.js-delete-link').forEach((link) =>{
-    link.addEventListener('click', ()=>{
+    link.addEventListener('click', ()=> {
       const productId = link.dataset.productId;
       removeFromCart(productId);
+      console.log(cart);
     });
  });
  
- 13.42
+ 
  
